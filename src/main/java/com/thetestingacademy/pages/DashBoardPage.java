@@ -1,4 +1,4 @@
 package com.thetestingacademy.pages;
 
-public class DashBoard {
+public class DashBoardPage {
 }

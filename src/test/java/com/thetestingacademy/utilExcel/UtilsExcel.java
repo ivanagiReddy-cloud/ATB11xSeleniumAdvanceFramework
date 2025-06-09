@@ -1,16 +1,16 @@
-package com.thetestingacademy.ex_08_DataDrivenTesting_POI;
+package com.thetestingacademy.utilExcel;
 
-import com.thetestingacademy.ex_02_seleniumBasics.CommonToAll;
+
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-import java.awt.print.Book;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class SeleniumBasics_31_utils extends CommonToAll {
+import com.thetestingacademy.base.CommonToALL;
+
+public class UtilsExcel extends CommonToALL {
 
     static Workbook workbook;
     static Sheet sheet;

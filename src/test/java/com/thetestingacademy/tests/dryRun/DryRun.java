@@ -1,4 +1,4 @@
-package com.thetestingacademy.dryRun;
+package com.thetestingacademy.tests.dryRun;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
