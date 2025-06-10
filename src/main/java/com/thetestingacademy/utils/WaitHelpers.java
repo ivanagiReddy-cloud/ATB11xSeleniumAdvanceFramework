@@ -2,6 +2,7 @@ package com.thetestingacademy.utils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -22,10 +23,10 @@ public class WaitHelpers {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(time));
     }
 
-    public static void waitExplicitWait(WebDriver driver, By locator, int time) {
+    public static void waitExplicitWait(WebDriver driver, WebElement element, int time) {
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(time));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        wait.until(ExpectedConditions.visibilityOf(element));
 
     }
 

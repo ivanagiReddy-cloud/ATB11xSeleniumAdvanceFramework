@@ -8,9 +8,9 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-import com.thetestingacademy.base.CommonToALL;
+import com.thetestingacademy.base.Test_CommonToALL;
 
-public class UtilsExcel extends CommonToALL {
+public class UtilsExcel extends Test_CommonToALL {
 
     static Workbook workbook;
     static Sheet sheet;

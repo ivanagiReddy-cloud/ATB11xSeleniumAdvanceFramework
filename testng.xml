@@ -3,10 +3,8 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/sivan/IdeaProjects/ATB11xSeleniumAdvanceFramework">
         <classes>
-            <class name="com.thetestingacademy.tests.dryRun.DryRun">
-                <methods>
-                    <include name="test_DryRun"/>
-                </methods>
+            <class name="com.thetestingacademy.tests.pageObjectModel.orangeHRM.Test_LoginPage">
+
             </class>
         </classes>
     </test>
