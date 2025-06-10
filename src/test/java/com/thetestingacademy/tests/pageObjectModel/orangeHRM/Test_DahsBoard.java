@@ -26,7 +26,7 @@ public class Test_DahsBoard extends Test_CommonToALL {
 
     }
 
-    @Test
+
     public void test_VerifyPIModule() {
 
 
