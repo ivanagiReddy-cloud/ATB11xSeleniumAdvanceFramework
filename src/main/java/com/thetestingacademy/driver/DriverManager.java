@@ -28,13 +28,11 @@ public class DriverManager {
             case "edge":
                 EdgeOptions edgeOptions = new EdgeOptions();
                 edgeOptions.addArguments("--start-maximized");
-                edgeOptions.addArguments("--guest");
                 driver = new EdgeDriver(edgeOptions);
                 break;
             case "chrome":
                 ChromeOptions chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments("--start-maximized");
-                chromeOptions.addArguments("--guest");
                 driver = new ChromeDriver(chromeOptions);
                 break;
             case "firefox":
